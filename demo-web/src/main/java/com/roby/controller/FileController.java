@@ -16,7 +16,7 @@ import java.util.List;
  */
 
 @RestController
-@RequestMapping("/file")
+@RequestMapping(value = "/file",produces = "application/json;charset=utf-8")
 public class FileController {
 
     private String path = "C:\\opt";

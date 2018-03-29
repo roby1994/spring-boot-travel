@@ -80,6 +80,6 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/fastjson/**")
-                .allowedOrigins("http://localhost:8088");// 允许 8088 端口访问
+                .allowedOrigins("http://localhost:28080");// 允许 8088 端口访问
     }
 }
